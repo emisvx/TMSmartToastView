@@ -17,6 +17,8 @@
     
     if(!xibName) {
         self.defaultXib = @"TMDefaultToastView";
+    } else {
+        self.defaultXib = xibName;
     }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
@@ -65,6 +67,8 @@
 {
     if(!xibName) {
         self.defaultXib = @"TMDefaultToastView";
+    } else {
+        self.defaultXib = xibName;
     }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
@@ -119,6 +123,8 @@
 {
     if(!xibName) {
         self.defaultXib = @"TMDefaultToastView";
+    } else {
+        self.defaultXib = xibName;
     }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
