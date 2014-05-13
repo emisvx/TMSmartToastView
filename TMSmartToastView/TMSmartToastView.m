@@ -12,9 +12,12 @@
 
 - (TMSmartToastView *) initWithText : (NSString *) text
                             position: (TMSmartToastViewPosition) position
+                             xibName: (NSString *) xibName;
 {
     
-    self.defaultXib = @"TMDefaultToastView";
+    if(!xibName) {
+        self.defaultXib = @"TMDefaultToastView";
+    }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
     
@@ -57,8 +60,12 @@
 - (TMSmartToastView *) initWithText : (NSString *) text
                             position: (TMSmartToastViewPosition) position
                             duration: (NSTimeInterval) duration
+                             xibName: (NSString *) xibName;
+
 {
-    self.defaultXib = @"DefaultToast";
+    if(!xibName) {
+        self.defaultXib = @"TMDefaultToastView";
+    }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
     
@@ -108,8 +115,11 @@
 - (TMSmartToastView *) initWithText : (NSString *) text
                               center: (CGPoint) center
                             duration: (NSTimeInterval) duration
+                             xibName: (NSString *) xibName;
 {
-    self.defaultXib = @"DefaultToast";
+    if(!xibName) {
+        self.defaultXib = @"TMDefaultToastView";
+    }
     
     self = [[[NSBundle mainBundle] loadNibNamed:self.defaultXib owner:self options:nil] objectAtIndex:0];
     

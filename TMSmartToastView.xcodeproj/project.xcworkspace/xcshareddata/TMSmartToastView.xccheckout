@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>811BF463-54AF-42D0-B450-B2522844EC44</string>
+	<string>F142E949-659B-43AA-AD17-5EFBDEE50CBB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TMSmartToastView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>22A840F8-A485-4CEE-833E-A8452A067A8F</key>
-		<string>https://bitbucket.org/emisvx/tiny-t-compiler.git</string>
+		<key>CD935CCF-488D-4156-BDBC-A640E2543B1C</key>
+		<string>https://github.com/emisvx/TMSmartToastView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Integral Numerica/TMSmartToastView/TMSmartToastView.xcodeproj/project.xcworkspace</string>
+	<string>TMSmartToastView.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>22A840F8-A485-4CEE-833E-A8452A067A8F</key>
-		<string>../../../..</string>
+		<key>CD935CCF-488D-4156-BDBC-A640E2543B1C</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/emisvx/tiny-t-compiler.git</string>
+	<string>https://github.com/emisvx/TMSmartToastView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>22A840F8-A485-4CEE-833E-A8452A067A8F</string>
+	<string>CD935CCF-488D-4156-BDBC-A640E2543B1C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>22A840F8-A485-4CEE-833E-A8452A067A8F</string>
+			<string>CD935CCF-488D-4156-BDBC-A640E2543B1C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Xcode Academic Workspace</string>
+			<string>TMSmartToastView</string>
 		</dict>
 	</array>
 </dict>

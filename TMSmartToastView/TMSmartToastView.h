@@ -22,17 +22,21 @@ typedef enum {
 @property NSInteger position;
 
 - (TMSmartToastView *) initWithText : (NSString *) text
-                            position: (TMSmartToastViewPosition) position;
+                            position: (TMSmartToastViewPosition) position
+                             xibName: (NSString *) xibName;
 
 - (TMSmartToastView *) initWithText : (NSString *) text
                             position: (TMSmartToastViewPosition) position
-                            duration: (NSTimeInterval) duration;
+                            duration: (NSTimeInterval) duration
+                             xibName: (NSString *) xibName;
 
 - (TMSmartToastView *) initWithText : (NSString *) text
                               center: (CGPoint) center
-                            duration: (NSTimeInterval) duration;
+                            duration: (NSTimeInterval) duration
+                             xibName: (NSString *) xibName;
 
 - (void) show;
+
 - (void) dismiss;
 
 @end
